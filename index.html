@@ -1,0 +1,542 @@
+<html>
+    <head>
+        <title>anbutech-official</title>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                box-sizing: border-box;
+            }
+            html{
+                scroll-behavior: smooth;
+            }
+            nav{
+                height:70px;
+                
+                margin-top: 5px;
+                background-color: #EB0C53;
+                
+               
+                
+            }
+            
+            
+            .noob ul li{
+                
+            display: inline;
+            margin-right: 20px;
+            
+            text-align: center;
+
+            }
+            .noob ul{
+                float: right;
+            
+
+            margin: 10px 10px;    
+            }
+            .noob ul li a{
+                
+                text-decoration: none;
+                color: #f2f2f2;
+                text-align: center;
+
+                }
+            .noob{
+                
+  color: #f2f2f2;
+  text-align: center;
+  padding: 9px 15px;
+  text-decoration: none;
+  font-size: 19px;
+            }
+            .cool-link:hover{
+                color: black;
+            }
+            .content{
+                
+               
+                width: 100%;
+                margin-top: 5px;
+            }
+            
+            .banner{
+                height: 600px;
+                background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url("photo/2.jpeg");
+                background-size: cover;
+                background-repeat: no-repeat;
+               
+                
+                      
+                
+        }
+        
+            .header{
+                position: absolute;
+                top: 50%;
+                left: 7%;
+                transform: translateY(-50%);
+                z-index: 2;
+                color: white;
+            font-size: 20px;
+            font-family: Times, Times New Roman, serif;
+            }
+           span{
+               color: #EB0C53;
+           }
+           .btn{
+               background-color: #EB0C53;
+               border-radius: 0px;
+               margin: 15px,15px,15px,15px;
+               color: white;
+               font-size: 25px;
+               border-color: #EB0C53;
+               
+           }
+           .btn a{
+               text-decoration: none;
+               color: #f2f2f2;
+           }
+           .col1{
+            
+               width: 60%;
+               
+               float: left;
+           }
+           .abt{
+            height: 350px;
+            margin-top: 15px;
+           }
+           .col2{
+            
+               
+               width: 40%;
+               
+               float: right;
+           }
+           .col1 p{
+               padding: 6px;
+               line-height: 30px;
+           }
+           .col2{
+                background-image: url("photo/3.jpg");
+background-size: cover;
+                background-repeat: no-repeat;
+                height: 100%;
+                border-radius: 5px;
+                      
+                
+        }
+        .mnu{
+            
+           height: 500px;
+            margin-top: 20px;
+
+        }
+        .head1{
+            
+            height: 40px;
+            text-align: center;
+        }
+        .cardContainer{
+            margin-top: 20px;
+            height: 400px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+            
+
+        }
+
+        .card {
+            height: 300px;
+      float: left;
+      width: calc(23% - 20px);
+      padding: 10px ;
+      border-radius: 10px;
+      margin: 20px 20px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+     
+   }
+   .card h2 {
+      font-size: 18px;
+      text-align: center;
+      color: #EB0C53;
+      margin-top: 10px;
+      
+   }
+ 
+  
+  
+  .image{
+      height: 250px;
+  }
+  .image img{
+      height: 100%;
+      width: 100%;
+      opacity: 0.9;
+      border-radius: 10px;
+  }
+  .cot{
+      height: 500px;
+      background-color: white;
+  }
+  .fot{
+      margin-top: 10px;
+    height: 40px;
+    background-color: #EB0C53;
+    
+  }
+  .addr{
+      
+      height: 400px;
+    
+      
+      margin-top: 20px;
+     
+      
+  }
+  .cbk{
+    height: 400px;
+      width: 60%;
+      margin: 0% auto;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
+  }
+  .cbk h3{
+      color: #000;
+      font-size: 21px;
+      padding: 20px;
+  }
+  
+  .rmk{
+      position: relative;
+      list-style: none;
+      display: flex;
+      margin: 20px 20px;
+      cursor: pointer;
+      align-items: flex-start;
+      font-size: 23px;
+      color: #000;
+      
+      
+  }
+  .ico{
+    font-size: 24px;
+      color: #EB0C53;
+  }
+  .op{
+      margin-left: 10px;
+      font-family: 'Times New Roman', Times, serif;
+  }
+  .logo {
+      height: 70px;
+      width: 190px;
+      float: left;
+      
+  }
+  .logo img{
+      height: 100%;
+      width: 100%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .banner{
+        height:300px;
+        width: 100%;
+    }
+    .abt{
+            height: 250px;
+           
+           }
+    .header{
+        font-size: 15px;
+        position: absolute;
+                top: 40%;
+                left: 7%;
+                transform: translateY(-50%);
+                z-index: 2;
+    }
+    .col1{
+        width: 100%;
+    }
+    .col2{
+        display: none;
+        overflow: hidden;
+    }
+    .mnu{
+       margin: 0% auto;
+        width: 80%;
+        height: 1000px;
+margin-top: 10px;
+        
+    }
+    
+    .head1{
+        margin-top: 50px;
+    }
+  .cardContainer{
+      box-shadow: none;
+margin-top:65px;
+
+
+      
+  }
+    
+    
+   
+   .card {
+    width: 90%;
+    
+    display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.card h2{
+    margin-top: 10px;
+}
+    
+   .cot{
+       margin-top: 500px;
+   }
+   .cbk{
+       width: 97%;
+   }
+   .cbk h3{
+      color: #000;
+      font-size: 17px;
+      padding: 20px;
+      font-family: 'Times New Roman', Times, serif;
+
+  }
+  .op{
+      font-family: 'Times New Roman', Times, serif;
+      font-style: oblique;
+  }
+   
+      
+  }
+  @media only screen and (max-width: 1000px) {
+    .banner{
+        height:300px;
+        width: 100%;
+    }
+    .abt{
+            height: 250px;
+           
+           }
+    .header{
+        font-size: 15px;
+        position: absolute;
+                top: 40%;
+                left: 7%;
+                transform: translateY(-50%);
+                z-index: 2;
+    }
+    .col1{
+        width: 100%;
+    }
+    .col2{
+        display: none;
+        overflow: hidden;
+    }
+    .mnu{
+       margin: 0% auto;
+        width: 60%;
+        height: 1000px;
+margin-top: 10px;
+        
+    }
+    
+    .head1{
+        margin-top: 50px;
+    }
+  .cardContainer{
+      box-shadow: none;
+margin-top:65px;
+
+
+      
+  }
+    
+    
+   
+   .card {
+    width: 90%;
+    
+    display: block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.card h2{
+    margin-top: 10px;
+}
+    
+   .cot{
+       margin-top: 500px;
+   }
+   .cbk{
+       width: 97%;
+   }
+   .cbk h3{
+      color: #000;
+      font-size: 17px;
+      padding: 20px;
+      font-family: 'Times New Roman', Times, serif;
+
+  }
+  .op{
+      font-family: 'Times New Roman', Times, serif;
+      font-style: oblique;
+  }
+  }
+    
+        </style>
+        <link rel="stylesheet" href="font/css/all.min.css">
+    </head>
+    <body>
+       
+        <nav >
+            <div class="logo">
+<img src="photo/logo.svg">
+            </div>
+            <div class="noob">
+                <ul>
+                    <li><a href="#section1" class="cool-link">Home</a></li>
+                    <li><a href="#section2" class="cool-link">About</a></li>
+                    <li><a href="#section3" class="cool-link">Menu</a></li>
+                    <li><a href="#section4" class="cool-link">Contact</a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+    
+        <div class="content">
+        <div class="banner"  id="section1" data-aos="flip-left" data-aos-duration="2000">
+        <div class="header">
+            
+            <h1><span>T</span>he <span>E</span>njoyable <span>F</span>ood <span>I</span>n <br> <span>O</span>ur <span>H</span>otel.</h1>
+            <button class="btn"><a href="#section3"><b>Our Menus</b></a></button>
+        </div>
+     
+        </div>
+        </div>
+        <!-- about us pages -->
+    <div class="abt" id="section2" >
+    <div class="col1" data-aos="fade-right">
+        <h1 style="margin-left:10px ;"><span>A</span>bout US</h1>
+        <p>
+            From the creators of Kali Linux comes a series of industry-leading security training programs 
+            and certifications designed for experienced penetration testers and IT security professionals. 
+            To get hands-on practice, students explore course techniques in safe, legal lab environments as 
+            they prepare for the live, performance-based certification exam. Since it is well-known that these exams 
+            rely entirely on demonstrated ability and merit, Offensive Security certifications are among the most in-demand 
+            and respected in the industry.
+        </p>
+    </div>
+    <div class="col2"></div>
+    </div>
+   
+
+<!-- our menus-->
+
+<div class="mnu" id="section3">
+    <div class="head1">
+    <h1><span>O</span>ur <span>M</span>enus</h1></div>
+    
+    <div class="cardContainer">
+        <div class="card" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
+            <div class="image">
+            <img src="photo/4.jpg">
+            </div>
+            <div class="pra">
+                <h2>Indian Food</h2>
+            </div>
+        </div>
+        <div class="card" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
+            <div class="image">
+                <img src="photo/5.jpeg">
+                </div>
+                <div class="pra">
+                    <h2>Italian Food</h2>
+                </div>
+        </div>
+        <div class="card" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000" >
+            <div class="image">
+                <img src="photo/6.jpeg">
+                </div>
+                <div class="pra">
+        <h2>Fast Food</h2>
+    </div>
+        
+        </div>
+        <div class="card" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
+            <div class="image">
+                <img src="photo/7.jpeg">
+                </div>
+                <div class="pra">
+                    <h2>Chinese Food</h2>
+                </div>
+        </div>
+        </div>
+        
+</div>
+<!-- contact us -->
+
+<div class="cot" id="section4">
+    <div class="head1">
+        <h1><span>C</span>ontact <span>U</span>s</h1></div>
+
+<div class="addr">
+<div class="cbk">
+    <h3>Address Details</h3>
+    <li class="rmk">
+    <i class="fa fa-map-marker-alt ico"> </i>
+        <i class="op"> 312,North Street,<br>
+            kottaram,<br>Avinangudi-(p.o),cuddalore-(dt)<br>
+        606112</i>
+    
+</li>
+<li class="rmk">
+    <i class="fa fa-phone-alt ico"></i>
+<i class="op"> 9092244340</i>
+
+</li>
+    
+<li class="rmk">
+    <i class="fa fa-envelope ico"></i>
+<i class="op"> anbu1234ravi@gmail.com</i>
+
+</li>  
+
+</div>
+</div>
+</div>
+<!-- footer-->
+<div class="fot">
+    
+<p style="text-align:center;padding: 10px; ">All Copyrights Reserved&#169 2021</p>
+</div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+      
+        </body>
+        
+</html>
